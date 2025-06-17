@@ -12,3 +12,5 @@ function App() {
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(<App />);
+axios.get("https://your-backend.onrender.com/api/start");
+
